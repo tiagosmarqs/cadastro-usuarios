@@ -39,10 +39,10 @@ function Home() {
             <p>
               E-mail: <span>{user.email}</span>
             </p>
-            <button>
-              <img src={Trash} alt="" />
-            </button>
           </div>
+          <button>
+            <img src={Trash} alt="" />
+          </button>
         </div>
       ))}
     </div>
